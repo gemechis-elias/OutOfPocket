@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:myexpensetracker/Model/expenseModel.dart';
 import 'package:myexpensetracker/Pages/addExpensePage.dart';
@@ -80,12 +79,12 @@ class _MainState extends State<Main> {
         primaryColor: Color(0xff1a1a1a),
         scaffoldBackgroundColor: Colors.grey[900],
         textTheme: TextTheme(
-          bodyText1: TextStyle(
+          displayLarge: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
             letterSpacing: 0.8,
           ),
-          bodyText2: TextStyle(
+          displayMedium: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
             letterSpacing: 0.8,
@@ -119,12 +118,12 @@ class _MainState extends State<Main> {
         primaryColor: Color(0xff1a1a1a),
         scaffoldBackgroundColor: Color(0xffeeeeee),
         textTheme: TextTheme(
-          bodyText1: TextStyle(
+          displayLarge: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
             letterSpacing: 0.8,
           ),
-          bodyText2: TextStyle(
+          displayMedium: TextStyle(
             color: Colors.black,
             fontWeight: FontWeight.bold,
             letterSpacing: 0.8,

@@ -23,11 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  hive: ^2.0.4
+  hive: ^2.2.3
   hive_flutter: ^1.1.0
-  line_icons: ^2.0.1
-  syncfusion_officechart: ^19.2.48-beta
-  flutter_charts: ^0.2.0
+  line_icons: ^2.0.3
+  syncfusion_officechart: ^28.1.36
+  flutter_charts: ^0.5.2
   draw_graph: ^1.0.0
 
 
@@ -38,7 +38,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  hive_generator: ^1.1.0
+  hive_generator: ^2.0.1
   build_runner: ^2.0.6
   flutter_launcher_icons: ^0.9.0
 
